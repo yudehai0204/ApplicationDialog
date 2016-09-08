@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <ImageView
+            android:id="@+id/myloading_image_id"
+            android:layout_margin="10dip"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@drawable/dialog_anim" />
+
+        <TextView
+            android:id="@+id/mylaoding_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:text="请稍后..."
+            />
+    </LinearLayout>
+</RelativeLayout>
